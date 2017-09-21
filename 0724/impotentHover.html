@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin:0;
+		}
+		.box{
+			width: 200px;
+			height: 200px;
+			background: #fff;
+			color: #dd5862;
+			position: relative;
+		}
+		.box .mask-box{
+			font-size: 36px;
+			text-align: center;
+			line-height: 200px;
+			position: absolute;
+			left: 0;
+			top:0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0,0,0,.3);
+			opacity: 0;
+			transition: opacity 1s ease;
+		}
+		.box:hover .mask-box{
+			opacity: 1;
+			transition: opacity 1s ease;
+		}
+	</style>
+</head>
+<body>
+
+
+
+
+<div class="box">
+	qweqwejijewr
+	<div class="mask-box">
+		&times;
+	</div>
+</div>
+</body>
+</html>

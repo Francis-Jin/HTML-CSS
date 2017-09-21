@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>display属性</title>
+		<style type="text/css">
+			/**{
+				
+				margin: 0;
+				padding: 0;
+			}
+			
+			p{
+				width: 100px;
+				height: 100px;
+				background: #0000FF;
+			}
+			span{
+				/*display: inline-block;*/
+				/*width: 100px;
+				height: 100px;
+				padding: 30px 50px 70px;
+				background: #0000FF;
+			}*/
+		</style>
+	</head>
+	<body>
+	<!--	<div id="box">
+			<p>都是发斯蒂芬</p>
+			<ul>
+				<li>li1</li>
+				<li>li2</li>
+			</ul>
+			<h1>h1</h1>
+			<h2>h2</h2>
+			<h3>h3</h3>
+			
+			
+			
+			<img src="../img/1.jpg"/>
+			<i>hahah</i>
+			<b>加粗</b>
+			<a href="javascript:;">baidu</a>
+			<span>span标签</span>
+		</div>
+		<style type="text/css">
+			.btn-wrap{
+				width: 200px;
+				height: 200px;
+				background: red;
+				
+			}
+			.btn-wrap .btn{
+				width: 100px;
+				height: 100px;
+				background: blue;
+				transition: all 1s ease;
+			}
+			.btn-wrap:hover .btn{
+				/*display: none;*/
+				/*width:0;
+				height: 0;*/
+				opacity: 0;
+				margin: 3px 5px 7px;
+				transition: all 1s ease;
+			}
+		</style>
+		<div class="btn-wrap">
+			<div class="btn"></div>
+		</div>-->
+		
+		<!--<style type="text/css">
+			.LiFloat{
+				border: 1px solid black;
+				overflow: hidden;
+			}
+			.LiFloat li{
+				float: left;
+				width: 80px;
+				height: 120px;
+				background: red;
+				text-align: center;
+				line-height: 120px;
+				margin-left: 10px;
+				margin-top: 10px;
+				list-style: none;
+				color: #FFFFFF;
+			}
+			.clearfix{
+				clear: both;
+			}
+			
+		</style>
+		
+		<ul class="LiFloat">
+			<li>列表1</li>
+			<li>列表2</li>
+			<li>列表3</li>
+			<li>列表4</li>
+			<li>列表5</li>
+			<p class="clearfix"></p>
+			<li>列表6</li>
+			<li>列表7</li>
+			<li>列表8</li>
+			<li>列表9</li>
+			<li>列表10</li>
+		</ul>-->
+		<style type="text/css">
+			.box1{
+				position: relative;
+				width: 500px;
+				height: 500px;
+				border: 1px solid red;
+			}
+			.boxson{
+				
+				width: 400px;
+				height: 400px;
+				margin:50px auto;
+				border: 1px solid red;
+			}
+			.span1{
+				position: absolute;
+				display: none;
+				cursor: pointer;
+				top: 50px;
+				left: 50px;
+				width: 400px;
+				height: 400px;
+				background: rgba(0,0,0,.3);
+				transition: all 1s ease; 
+			}
+			.span1 i{
+				/*display: none;*/
+				width: 100px;
+				height: 100px;
+				margin: 150px auto;
+				background: rgba(0,0,0,.3);
+				transition: all .3s ease; 
+			}
+			
+			.span1:hover i{
+				background: rgba(0,0,0,.5);
+				transition: all 1s ease; 
+			}
+			.boxson:hover .span1,.boxSon:hover .span1 i{
+				background: rgba(0,0,0,.5);
+				display: block;
+			}
+		</style>
+		<div class="box1">
+			<div class="boxson"></div>
+			<a class="span1"><i></i></a>
+		</div>
+	</body>
+</html>

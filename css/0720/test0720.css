@@ -1,0 +1,52 @@
+.div1{
+	width: 900px;
+	height: 500px;
+	margin: 10px auto;
+	border: 1px solid red;
+	background-color: palegreen;s
+	
+}
+.div1 #id1{
+	width: 600px;
+	height: 300px;
+	margin: 100px auto;
+	border: 1px solid black;
+	background-color: crimson;
+}
+.div1 #id1 p{
+	margin: 0;
+}
+.div1 #id1 .blue{
+	background: blue;
+}
+.div1 #id1 .white{
+	background: white;
+}
+.div1 #id1 .yellow{
+	background: yellow;
+}
+/*.div2 p:last-child{
+	background: red;
+}
+.div2 p:first-child{
+	background: blue;
+}
+.div2 p:last-of-type{
+	border: 20px solid yellow;
+}
+
+.div2 p:first-of-type{
+	border: 3px solid black;
+}*/
+/*.div2 p:only-child{
+	background: pink;
+}*/
+.div2 p{
+	margin: 0;
+}
+.div2 p:nth-child(2n){
+	background: red;
+}
+.div2 p:nth-child(2n-1){
+	background: rgba(255,120,0,.3);
+}

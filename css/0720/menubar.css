@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	width: 220px;
+	height: 5px;
+	margin-left: 20px;
+	background: #CCCCCC;
+}
+div p{
+	width: 100px;
+	height: 5px;
+	background: #f00;
+}
+ul li{
+	margin: 10px;
+	list-style: none;
+	color: #000ss;
+}
+ul li a{
+	color: #000;
+	font:italic 200 14px "微软雅黑";
+}
+ul #liMain a{
+	color: #00f;
+	font: italic normal 16px "微软雅黑";
+}
+ul #liMain span{
+	border-right: 1px solid #CCCCCC;
+	padding-right: 5px;
+}
+a{
+	text-decoration: none;
+	padding: 10px;
+}

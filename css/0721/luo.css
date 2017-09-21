@@ -1,0 +1,94 @@
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.bigBox{
+			margin: 0 auto;
+			min-width: 960px;
+			max-width: 1024px;
+		}
+		.boxFather{
+			float: left;
+			margin-bottom: 20px;
+			margin-right: 16px;
+			width: 307px;
+		}
+		.page{
+			display: block;
+			float: left;
+			width: 120px;
+			overflow: hidden;
+		}
+		.boxSon{
+			float: left;
+			margin-left: 15px;
+			width: 172px;
+			overflow: hidden;
+		}
+		.boxSon a{
+			display: block;
+			font-size: 16px;
+			line-height: 20px;
+			margin-bottom: 20px;
+			margin-top: 18px;
+			width: 172px;
+			height: 40px;
+			overflow: hidden;
+			text-decoration: none;
+			color: #666;
+			transition: all .3s ease;
+			
+		}
+		.boxSon a:hover{
+			color: #E3587A;
+			transition: all .3s ease;
+		}
+		.boxSon p{
+			color: #BBBCB8;
+			overflow: hidden;
+			margin-top: 10px;
+			text-overflow: ellipsis;
+			white-space: normal;
+		}
+		/*底部*/
+		.footer{
+			clear: both;
+			width: 100%;
+			background: #222;
+			height: 410px;
+			margin-bottom:0 ;
+			margin-top: 20px;
+		}
+		.footS{
+			margin: 0 auto;
+			width: 1024px;
+			height:100%;
+		}
+		.fl{
+			float: left;
+			width: 300px;
+			height: 100%;
+		}
+		.mid{
+			float: left;
+			width: 300px;
+			height: 100%;
+		}
+		.fr{
+			float: left;
+			width: 300px;
+			height: 100%;
+			
+		}
+		.fl h4,.fl p{
+			color: #FFF;
+		}
+		.fl h4{
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+		.fl p{
+			line-height: 20px;
+			margin: 10px 0;
+			cursor: pointer;
+		}

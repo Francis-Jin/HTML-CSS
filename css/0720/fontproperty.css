@@ -1,0 +1,8 @@
+p{
+	/*font-family: "楷体";
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 300;*/
+	font:italic 200 30px "Dubai";/*normal 普通 ，bold 加粗*/
+	color: red;
+}
